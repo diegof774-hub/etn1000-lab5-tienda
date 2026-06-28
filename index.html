@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Esto soluciona los caracteres extraños de la imagen -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal de Acceso | TecnoStore</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Cabecera con estilos oficiales del Lab 5 -->
+    <header class="navbar">
+        <div class="logo">TecnoStore</div>
+        <nav>
+            <a href="index.html">Inicio</a>
+        </nav>
+    </header>
+   
+    <main>
+        <!-- Sección Hero -->
+        <section class="hero">
+            <h1>Bienvenido a TecnoStore 2026</h1>
+            <p>Por favor, selecciona tu rol para ingresar al sistema relacional.</p>
+        </section>
+ 
+        <!-- Restauración del contenedor y Grid del Lab 5 -->
+        <section class="contenedor-productos">
+            <div class="grid-productos" style="max-width: 800px; margin: 0 auto;">
+                
+                <!-- Módulo Cliente -->
+                <article class="tarjeta-producto">
+                    <div class="imagen-placeholder" style="background-color: var(--azul-claro);"></div>
+                    <h3>Módulo de Clientes</h3>
+                    <p style="margin-bottom: 1.5rem;">Acceso al catálogo dinámico de productos, cotización de divisas en tiempo real y procesamiento de órdenes de compra.</p>
+                    <a href="catalogo.php" class="btn-comprar" style="display: block; text-decoration: none; margin-bottom: 10px;">Ver Catálogo</a>
+                    <a href="registro_cliente.php" class="btn-comprar" style="display: block; text-decoration: none; background-color: #4a5568;">Registrar Nuevo Cliente</a>
+                </article>
+
+                <!-- Panel de Administración (Texto serio y profesional) -->
+                <article class="tarjeta-producto">
+                    <div class="imagen-placeholder" style="background-color: var(--azul-oscuro);"></div>
+                    <h3>Panel de Administración</h3>
+                    <p style="margin-bottom: 1.5rem;">Autenticación del sistema de control de inventario para la actualización de existencias y gestión del catálogo en la base de datos.</p>
+                    <a href="admin.php" class="btn-comprar" style="display: block; text-decoration: none; background-color: var(--azul-oscuro);">Autenticar Administrador</a>
+                </article>
+
+            </div>
+        </section>
+    </main>
+ 
+    <footer>
+        <p style="text-align: center; padding: 20px; background: var(--gris-claro); margin: 0;">&copy; 2026 Proyecto Final - Bases de Datos</p>
+    </footer>
+
+</body>
+</html>
